@@ -1,0 +1,46 @@
+
+.myjombo{
+    height: 100vh;
+  background-image:
+    linear-gradient(to bottom right, rgba(0, 0, 0,0.8) , rgba(0, 0, 0,0.7)) ,   
+    url("./subPictures/c2.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.list-group-item{
+    box-shadow: 0px 5px 10px 0px #8B1AA3!important;
+    background: #fff !important;
+    color: #000 !important;
+}
+.btn-mycolor{
+    
+        color: #fff;
+        background: #8B1AA3;
+        outline: none !important;
+      
+}
+.btn-mycolor:hover{
+    
+    color:#8B1AA3;
+    background: #fff;
+    outline: none !important;
+  
+}
+.btn-mycolor2{
+    
+    color: #fff;
+    background: transparent;
+    border: #fff solid;
+    outline: none !important;
+  
+}
+.btn-mycolor2:hover{
+    
+    color: #fff;
+    background: #8B1AA3;
+    border: none;
+    outline: none !important;
+  
+}

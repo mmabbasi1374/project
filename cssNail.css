@@ -30,7 +30,7 @@ body {
   text-decoration: none;
   border-radius:50px;
   cursor: pointer;
-  outline: none !important;
+  /* outline: none !important; */
   margin-top: 1em;
   text-transform: uppercase;
   font-weight: small;
@@ -62,7 +62,7 @@ body {
 }
 /*hide bootsrap bottuns' outline*/ 
 .btn:focus {
-  outline: none;
+  /* outline: none; */
   box-shadow: none;
 }
 /* ............/navbar/............ */
@@ -80,9 +80,9 @@ body {
   width: 100%;
   background: #fff;
   color: #000;
-  opacity: 0.85;
-  height: 50px;
-  z-index: 12;
+  /* opacity: 0.85;
+  height: 50px;*/
+  z-index: 12; 
 } 
 /* ............//// Showcase////......... */
 .showcase-area {
@@ -230,6 +230,13 @@ body {
 .img-container:hover .img-content {
   opacity: 1;
   top: 40%;
+}
+.services-title {
+  font-size: 1.2rem !important;
+  color: rgb(65, 65, 65) !important;
+  display: inline-block;
+  border-bottom: 1px solid #BA149F !important;
+}
 }
 /* ........./ Q & A /.......... */
 #questions {
