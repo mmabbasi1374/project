@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .myjombo{
     height: 100vh;
@@ -44,3 +45,32 @@
     outline: none !important;
   
 }
+.btn-mycolor3:hover{
+    
+    color: #fff;
+    background: #8B1AA3;
+    border: none;
+    outline: none !important;
+  
+}
+.btn-mycolor3{
+    
+    color: #8B1AA3;
+    background: #fff;
+    outline: none !important;
+    padding: 5px;
+    box-shadow: 0px 5px 10px 0px #8B1AA3!important;
+    /* background: #fff !important; */
+    
+  
+}
+.after::after{
+    content: "  ";
+    display: block;
+    border: 1px solid #1AA341 !important;
+    box-shadow: 0px 5px 10px 0px #8B1AA3!important;
+     width: 220px;
+    text-align: center;
+    margin: 10px auto;
+  
+  }

@@ -79,6 +79,37 @@ body {
     text-transform: uppercase;
     color: #555;
   }
+  /*some font and styling text*/
+
+.tit {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform:capitalize;
+    color: #555;
+}
+.main-title {
+  font-family: "Trirong", serif;
+  margin-top: 1.5em;
+  color: #f5f5f7;
+}
+.titsmall {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 600;
+}
+/*line above title*/
+.after::after{
+  content: "  ";
+  display: block;
+  border: 1px solid #1AA341 !important;
+  box-shadow: 0px 5px 10px 0px #8B1AA3!important;
+   width: 220px;
+  text-align: center;
+  margin: 10px auto;
+
+}
   /*footer*/
 #footer h2 {
   text-align: center;

@@ -8,14 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--my css files-->
-    <link rel="stylesheet" href="./subpageDesign.css">
+    <link rel="stylesheet" href="./subpageDesign.css"> 
     <link rel="stylesheet" href="./subpageCourse.css">
+    <!--google font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <title>Course</title>
   </head>
   <body>
     <header>
         <!-- create a navbar by bootsrap and push it to right by .ml-auto in <u>l and some other css coding and change it-->
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand" style="color: #8B1AA3; font-weight: bold;" href="#">Elsa <img class="my-icon" src="./pictures/nail-polish-color-icon-purple-nail-varnish-bottle-with-brush-isolated-illustration-vector.jpg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,62 +36,108 @@
                 </ul>
             </div>
         </nav>
-        <div class="container "> 
-            <!--jombotron -->
-            <div
-            class="p-5 text-center bg-image myjombo"
-            >
-            <div class="mask">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
-                    <h1 class="mb-3">Heading</h1>
-                    <h4 class="mb-3">Subheading</h4>
-                    <a class="btn btn-mycolor btn-lg" href="#start" role="button"
-                    >Teachers</a
-                    >
-                    <a class="btn btn-lg btn-mycolor2" href="#movie" role="button"
-                    >Courses</a
-                    >
-                </div>
-                </div>
-            </div>
-            </div>
-            <!-- Background image -->
-        </div>
   </header>
   <section>
+    <div class="container "> 
+      <!--jombotron -->
+    <div class="row">
+      <div
+      class="p-5 text-center bg-image myjombo col-12"
+      >
+        <div class="mask">
+            <div class="d-flex justify-content-center">
+              <div class="text-white">
+                  <h1 class="mb-3 main-title">Training</h1>
+                  <h4  class="mb-3 main-title">Here you can see our courses and teachers!</h4>
+                  <a class="btn btn-mycolor btn-lg" href="#teachers" role="button"
+                  >Teachers</a
+                  >
+                  <a class="btn btn-lg btn-mycolor2" href="#courses" role="button"
+                  >Courses</a
+                  >
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Background image -->
+  </div>
+</div>
+  </section>
+  <!--courses-->
+  <section id="courses">
       <div class="container py-5 my-5">
-        <div id="movie" class="row">
-            <div class="col col-sm-5 offset-sm-1">
-              <h2 class="text-center  mt-5 pb-5">Powder<img src="./subPictures/powder.png" alt=""></h2>
-              <ul class="list-group list-group-flush my-2">
-                <li class="list-group-item text-center">First item</li>
-                <li class="list-group-item text-center">Second item</li>
-                <li class="list-group-item text-center">Third item</li>
-                <li class="list-group-item text-center">Fourth item</li>
-                <li class="list-group-item text-center">First item</li>
-                <li class="list-group-item text-center">Second item</li>
-                <li class="list-group-item text-center">Third item</li>
-                <li class="list-group-item text-center">Fourth item</li>
+        <div id="movie" class="row d-flex justify-content-center">
+            <div class="col col-sm-5 ">
+              <h2 class="text-center  mt-5 after tit">Powder<img src="./subPictures/powder.png" alt=""></h2>
+              <ul class="list-group list-group-flush my-1">
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
+                <li class="list-group-item text-center">Lorem, ipsum.</li>
               </ul>
             </div>
             <div class="col col-sm-5">
-                <h2 class="text-center pt-5 pb-5">Gelish  <img src="./subPictures/gelmain.png" alt=""></h2>
-                <ul class="list-group list-group-flush my-2">
-                  <li class="list-group-item text-center">First item</li>
-                  <li class="list-group-item text-center">Second item</li>
-                  <li class="list-group-item text-center">Third item</li>
-                  <li class="list-group-item text-center">Fourth item</li>
-                  <li class="list-group-item text-center">First item</li>
-                  <li class="list-group-item text-center">Second item</li>
-                  <li class="list-group-item text-center">Third item</li>
-                  <li class="list-group-item text-center">Fourth item</li>
+                <h2 class="text-center pt-5 after tit">Gelish  <img src="./subPictures/gelmain.png" alt=""></h2>
+                <ul class="list-group list-group-flush my-1">
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
+                  <li class="list-group-item text-center">Lorem, ipsum.</li>
                 </ul>
               </div>
           </div>
         </div>
       </div>
   </section>
+  <!--teachers section-->
+  <section id="teachers" class="my-5">
+    <h2 class="tit after">Teachers</h2>
+    <div class="row d-md-flex justify-content-center">
+      
+      <div class="col col-md-3">
+        <div class="card mx-auto mx-md-0 mb-5 mb-md-2" style="width:300px">
+          <img class="card-img-top" src="./subPictures/c102.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Elsa Rahaeikia</h4>
+            <p class="card-text">Manager <br>teaches course of Gel</p>
+            <a href="#" class="btn btn-mycolor3">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-3">
+        <div class="card mx-auto mx-md-0 mb-5 mb-md-2" style="width:300px">
+          <img class="card-img-bottom" src="./subPictures/c101.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Hananeh Baloochi</h4>
+            <p class="card-text">Teacher <br> Teaches course of powder</p>
+            <a href="#" class="btn btn-mycolor3">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-3">
+        <div class="card mx-auto mx-md-0 mb-5 mb-md-2" style="width:300px">
+          <img class="card-img-top" src="./subPictures/c103.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Teacher  <br> Teaches course of Gel</p>
+            <a href="#" class="btn btn-mycolor3">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer id="footer">
+    <h2>Elsa-Nail-Studio &copy; written by Mehdi- all right reserved.</h2>
+</footer>
 
  
     <!-- Bootstrap JS -->
