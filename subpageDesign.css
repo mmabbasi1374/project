@@ -110,15 +110,33 @@ body {
   margin: 10px auto;
 
 }
-  /*footer*/
-#footer h2 {
-  text-align: center;
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  font-weight: 500;
-  color: #fff;
-  background: rgb(65, 65, 65);
-}
+
 .box-border{
   border-bottom: 1px solid #BA149F !important;
+}
+/*footer*/
+#footer{
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1.6rem;
+  font-weight: 500;
+  color: rgb(131, 130, 130);
+  background: rgb(65, 65, 65);
+}
+h2.titsmall {
+  font-size: 1.2rem !important;
+  color: #666 !important;
+  font-weight: 600 !important;
+}
+footer a{
+  text-decoration: none;
+  color:#666 ;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+footer a:hover{
+  text-decoration: none;
+  color:rgb(131, 130, 130) ;
+  font-weight: 400;
+  font-size: 1.2rem;
 }

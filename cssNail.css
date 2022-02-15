@@ -325,11 +325,28 @@ body {
   font-size: 1.3rem;
 }
 /*footer*/
-#footer h2 {
+#footer{
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 0.8rem;
   padding: 1.6rem;
   font-weight: 500;
-  color: #fff;
+  color: rgb(131, 130, 130);
   background: rgb(65, 65, 65);
+}
+.titsmall {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 600;
+}
+footer a{
+  text-decoration: none;
+  color:#666 ;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+footer a:hover{
+  text-decoration: none;
+  color:rgb(131, 130, 130) ;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
