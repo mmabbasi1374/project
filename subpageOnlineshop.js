@@ -1,4 +1,5 @@
 function loadGithubUsers() {
+    /*I have been trying cath data from API but I couldn't-this is just the cod that was related to this .*/
     // Object to create HTTP requests
     var xhttp = new XMLHttpRequest();
 
