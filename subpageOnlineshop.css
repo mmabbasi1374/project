@@ -1,0 +1,126 @@
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel{ Height: 189px;}
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+.myjomboshop{
+    height: 100vh;
+  background-image:
+    linear-gradient(to bottom right, rgba(0, 0, 0,0.8) , rgba(0, 0, 0,0.7)) ,   
+    url("./pictures/shop3.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  
+}
+.delete{
+  color: rgb(255, 0, 106);
+}
+input:active{
+  border: #666;
+}
+input:focus{
+  border: #666;
+}
+/*****fghjikldjhkgshkahdohodhkabkhf
+wkdjjfiuwhfiuwifkf
+***********/
+.title {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  color: grey;
+  font-family: monospace;
+  text-align: center;
+}
+
+.squares-container {
+  /*targeting Chrome & Safari*/
+  display: -webkit-flex;
+  /*targeting IE10*/
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-evenly;
+  /*horizontal centering*/
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.draggable-container {
+  height: 150px;
+  width: 150px;
+  border-left: solid 1px #8B1AA3; box-shadow: 0px 5px 10px 0px #1AA341;
+  /*targeting Chrome & Safari*/
+  display: -webkit-flex;
+  /*targeting IE10*/
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  /*horizontal centering*/
+  align-items: top;
+  
+}
+
+/* #draggable-element {
+  height: 150px;
+  width: 150px;
+  background-color: #fff;
+  cursor: pointer;
+} */
+
+
+
+#drop-element {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  border: 6px solid 1px #8B1AA3; box-shadow: 0px 5px 10px 0px #1AA341;
+  /*targeting Chrome & Safari*/
+  display: -webkit-flex;
+  /*targeting IE10*/
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  /*horizontal centering*/
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hide {
+  display: none;
+}
+}
+
+/* Medium devices */
+
+@media (min-width: 768px) {
+.draggable-container {
+  height: 500px;
+  width: 400px;
+}
+
+#draggable-element {
+  height: 300px;
+  width: 300px;
+}
+
+#drop-element {
+  height: 300px;
+  width: 200px;
+}
+
+.title {
+  font-size: 40px;
+}
+}
+
