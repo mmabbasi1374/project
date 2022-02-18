@@ -46,7 +46,7 @@
                             <div class="text-white">
                                 <h1 class="mb-3 main-title">Online shope</h1>
                                 <h4  class="mb-3 main-title">Choose everything that you want</h4>
-                                <a class="btn btn-mycolor2 btn-lg" href="#products" role="button"
+                                <a onclick="loadGithubUsers()" class="btn btn-mycolor2 btn-lg" href="#otherproducts" role="button"
                                 >products</a
                                 >
 
@@ -60,8 +60,14 @@
     </section>
 
     <!--products-->
+    <!-- ------try to catch an API -->
+    <section id="otherproducts">
+        <h2 class="tit after text-cente py-3">Our products</h2>
+        <div id="output4"></div>
+    </section> 
+    <!--off 50%-->
     <section>
-        <h2 id="products" class="text-center tit after mt-5 pt-4">Our product</h2>
+        <h2 id="products" class="text-center tit after mt-5 pt-4">Off 50%</h2>
         <div class="container py-4">
             <div class="row">
                 <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
@@ -327,15 +333,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!--------try to catch an API
-    <section>
-        <div class="dv">
-            <button onclick="loadGithubUsers()">
-                upload
-            </button>
-        </div>
-    </section> -->      
+    </section>    
     <!--footer-->
     <footer id="footer">
         <div class="container">

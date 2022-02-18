@@ -1,5 +1,5 @@
 function loadGithubUsers() {
-    /*I have been trying cath data from API but I couldn't-this is just the cod that was related to this .*/
+
     // Object to create HTTP requests
     var xhttp = new XMLHttpRequest();
 
@@ -21,12 +21,34 @@ function loadGithubUsers() {
                // console.log(users[i])//show in console
                      outputt += `
                      <div class="dv">
-                     <img src="${products[i].image_link}" class="pic"></li>
+                     <div class="container">
+                     <div class="row ml-md-5 pl-md-5">
+                     <div class="col-4">
+                     <img class="col-6" src="${products[i].image_link}" class="pic"></li>
                             <ul >
                                 <li > id: ${products[i].id}</li>
                                 <li > brand: ${products[i].brand}</li>
                                
                              </ul>
+                             </div>
+                             <div class="col-4">
+                             <img class="col-6" src="${products[i].image_link}" class="pic"></li>
+                                    <ul >
+                                        <li > id: ${products[i].id}</li>
+                                        <li > brand: ${products[i].brand}</li>
+                                       
+                                     </ul>
+                                     </div>
+                                     <div class="col-4">
+                                     <img class="col-6" src="${products[i].image_link}" class="pic"></li>
+                                            <ul >
+                                                <li > id: ${products[i].id}</li>
+                                                <li > brand: ${products[i].brand}</li>
+                                               
+                                             </ul>
+                                             </div>
+                             </div>
+                             </div>
                              </div>
                          ` + `<br>`;
                 }
